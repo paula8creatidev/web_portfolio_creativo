@@ -2,6 +2,8 @@ Autora
 
 Copyright © 2025. Creado y diseñado por Paula Llago Clemente.
 
+---
+
 Webook Creative
 
 Webook Creative es un portfolio de mis proyectos, a la vez que sirve de ejemplo para mostrar mis habilidades y creatividad en cuanto a diseño. Está construido con HTML, CSS y el framework Bootstrap.
