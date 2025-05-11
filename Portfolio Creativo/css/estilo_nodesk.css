@@ -1,0 +1,103 @@
+@media (max-width: 991px){
+    .navbar ul{
+        width: 50vw;
+        height: fit-content;
+        flex-direction: column;
+        background-color: #B389FABF;
+        left: 35%;
+        margin-top: 1.7rem;
+    }
+
+    .dropdown-menu{
+        position: absolute !important;
+        top: 100%; /* ajusta según tu diseño */
+        left: 0;
+        z-index: 1050; /* mayor que el sticky */
+    }
+
+    .navbar li{
+        margin: 2%;
+    }
+
+    .navbar-toggler
+    {
+        position: fixed;
+        top: 1rem;
+        left: 1rem;
+        z-index: 1001;
+        background-color: #B389FAEA !important;
+        border-radius: 0.5rem;
+    }
+
+    .navbar-toggler-icon{
+        z-index: 1;
+    }
+
+    .navbar-toggler:focus {
+        outline: 2px solid #D68FFFE6 !important;
+        box-shadow: 0 0 0 4px rgba(255, 117, 182, 0.5) !important;
+    }
+
+    .navbar-mv{
+        display: block !important;
+        width: 100%;
+        background-color: none !important;
+    }
+    .navbar-pc{
+        display: none !important;
+    }
+
+    .avatar{
+        min-height: 10rem;
+        min-width: 20rem;
+        margin-bottom: 2rem;
+    }
+
+    .cards
+    {
+        margin-bottom: 0 !important;
+    }
+    
+    .columna{
+        margin-bottom: 3vh !important;
+        margin-top: 3vh !important;
+        border: none;
+    }
+
+    h3{
+        font-size: 32px !important;
+        margin-bottom: 0.6vh !important;
+    }
+
+
+    img{
+        width: 90vw;
+    }
+
+    .rowie{
+        height: fit-content;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .btn{
+        width: 40vw !important;
+    }
+
+    .spacex{
+        height:4vh;
+    }
+
+    .rowling{
+        height: fit-content;
+    }
+
+    .colina{
+        margin-top: 3vh !important;
+        margin-bottom: 3vh;
+    }
+    .colina > a
+    {
+        margin-inline: 4vw;
+    }
+}
