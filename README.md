@@ -29,7 +29,7 @@ Puedes ver mi página portfolio en: https://webookcreative.netlify.app
 # Características destacadas
 
 - Diseño responsivo para ordenador, tablet y móvil
-- Secciones divididas en presentación con links de contacto a Linkedin, github y correo y mis proyectos.
+- Secciones divididas en: header con el menú (fijado a la página), sección de presentación con links de contacto a Linkedin, Github y correo, sección de Mis Proyectos con proyectos y trabajos que he realizado y footer con copyright.
 - Estilo creativo, profesional y limpio
 
 ---
