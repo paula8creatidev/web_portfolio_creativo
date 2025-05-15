@@ -36,7 +36,7 @@ Puedes ver mi página portfolio en: https://webookcreative.netlify.app
 
 # ¿Cómo probar el sitio de manera local?
 
-Ahora mismo no lo tengo público pero en caso de hacerlo puedes clonar el repositorio de la siguiente manera:
+Para probar el sitio de manera local puedes clonar el repositorio de la siguiente manera:
 
    ```bash
    git clone https://github.com/paula8creatidev/web_portfolio_creativo.git
