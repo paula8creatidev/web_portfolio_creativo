@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitty Cafe</title>
+    <link rel="stylesheet" href="../css/juego_estilo.css">
+    <link rel="icon" href="../images/heart_img.png" type="image/png">
+</head>
+<body>
+    <audio id="song" autoplay>
+        <source src="../audio/A Town With An Ocean View (Kiki's Delivery Service OST).mp3" type="audio/mp3">
+    </audio>
+    <div id="pantalla_end"></div>
+    <img src="../images/cafe2.jpg" id="back" alt="">
+    <div class="dineros" id="showDinero">Dinero:</div>
+    <input class="dineros" type="number" id="dinero" readonly>
+    <div id="openimg"></div>
+    <div id="fakebutton" onclick="playSong()"></div>
+    <div id="prodCof" class="product1" onclick="Compra(0)"></div>
+    <div id="prodChoco" class="product1" onclick="Compra(1)"></div>
+    <div id="prodCrois" class="product1" onclick="Compra(2)"></div>
+    <div class="pnj" id="camarera"></div>
+    <div class="pnj" id="cliente"></div>
+    <img src="../images/mesa_mejora.png" class="mesas" id="mesamejorada" onmouseover="muestraTexto(1)" onmouseout="escondeTexto(1)">
+    <img src="../images/mesa.png" class="mesas" id="mesa">
+    <div id="coffee" class="product2"></div>
+    <div id="choco" class="product2"></div>
+    <div id="croissant" class="product2"></div>
+    <div id="mejoraRRSS" class="mejoraGray" onmouseover="muestraTexto(5)" onmouseout="escondeTexto(2)"></div>
+    <div id="mejoraBarista" class="mejoraGray" onmouseover="muestraTexto(6)" onmouseout="escondeTexto(3)"></div>
+    <div id="mejoraIngred" class="mejoraGray"onmouseover="muestraTexto(7)" onmouseout="escondeTexto(4)"></div>
+    <div class="texto" id="textoRRSS">
+        <p>
+            Publicita el café en redes.
+            <br>Los clientes pagarán un 5% más en todos los productos.
+        </p>
+    </div>
+    <div class="texto" id="textoBarista">
+        <p>
+            Contrata a Jenny la Barista.
+            <br>Los clientes pagarán un 5% más en todos los productos.
+        </p>
+    </div>
+    <div class="texto" id="textoIngred">
+        <p>
+            Compra ingredientes de calidad Premium.
+            <br>Los clientes pagarán un 5% más en todos los productos.
+        </p>
+    </div>
+    <div class="texto" id="textoMesa">
+        <p>
+            Compra una mesa y sillas de marca VIP.
+            <br>Los clientes pagarán un 10% más en todos los productos.
+        </p>
+    </div>
+    <div id="img_end"></div>
+    <div id="texto_end">
+        <p>
+            La Cafetería Kitty Café es la mejor de la ciudad.
+            <br>¡Gracias por tu ayuda!
+        </p>
+    </div>
+    <button id="botonMesa" onclick="Mejora(1)" onmouseover="muestraTexto(1)" onmouseout="escondeTexto(1)">Mejora: 10€</button>
+    <button id="botonRRSS" onclick="Mejora(2)" onmouseover="muestraTexto(2)" onmouseout="escondeTexto(2)">Mejora: 5€</button>
+    <button id="botonBarista" onclick="Mejora(3)" onmouseover="muestraTexto(3)" onmouseout="escondeTexto(3)">Mejora: 8€</button>
+    <button id="botonIngred" onclick="Mejora(4)" onmouseover="muestraTexto(4)" onmouseout="escondeTexto(4)">Mejora: 5€</button>
+    <a href="../index.html"><button id="restart">Pantalla Inicio</button></a> 
+
+    <!--Script rápido de redirección al index en caso de que alguien entre al juego html en móvil o tablet-->
+    <script>
+        const esOrdenador = window.matchMedia("(min-width: 1150px) and (min-height: 700px) and (hover: hover)").matches;
+
+        if(!esOrdenador)
+        {
+            window.location.href = "../index.html";
+        }
+
+    </script>
+
+    <!--Script del juego para ordenador-->
+    <script src="../js/script.js"></script>
+</body>
+</html>

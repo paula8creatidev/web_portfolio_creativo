@@ -1,0 +1,306 @@
+body
+{
+    background-color: lavenderblush;
+    margin: 0;
+}
+
+div, input, img, button
+{
+    position: absolute;
+}
+
+button, .product1, #fakebutton, #restart
+{
+    cursor: url(../images/gatito_point.png), pointer;
+}
+
+button, #texto_end, .dineros
+{
+    text-shadow:
+    0.1vw 0.1vw 0 palevioletred, 
+    -0.1vw -0.1vw 0 palevioletred,  
+    0.1vw -0.1vw 0 palevioletred, 
+    -0.1vw 0.1vw 0 palevioletred;
+    color: white;
+}
+
+button, .dineros, .texto, #texto_end 
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+button, .dineros, .texto {
+    font-size: 1.4vw;
+}
+
+#texto_end, #restart {
+    font-size: 2vw;
+    text-align: center;
+}
+
+.product2, #cliente, #mesamejorada, #pantalla_end, #texto_end, #img_end, #restart 
+{
+    display: none;
+}
+
+.pnj, .product1, .product2, .mejoraGray, #fakebutton, #openimg, #pantalla_end, #img_end 
+{
+    background-size: cover;
+    background-position: center;
+}
+
+.product1, .product2
+{
+    border-radius: 10rem;
+}
+
+button
+{
+    display: none;
+    background-color: lightpink;
+    border: 0.2vw solid white;
+    border-style: dashed;
+    border-radius: 0.3rem;
+    top: 90%;
+    width: 10%;
+    height:5%;
+}
+
+.dineros
+{
+    width: 6.5vw;
+    top: 5%;
+}
+
+.pnj
+{
+    width: 25vw;
+    height: 43vh;
+}
+
+.product1
+{
+    cursor: pointer;
+    width: 5.5vw;
+    height: 10vh;
+    top: 11%;
+}
+
+.product2
+{
+    width: 9vw;
+    height: 16vh;
+    top: 33%;
+    left: 85%;
+}
+
+.mesas
+{
+    width: 30vw;
+    height: 43vh;
+    left: 34%;
+}
+
+.mejoraGray
+{
+    height: 16vh;
+    background-position: center;
+    top: 72%;
+    filter: grayscale(100%);
+}
+
+.texto
+{
+    display: none;
+    width: 18vw;
+    top: 70%;
+    left: 8%;
+    text-align: justify;
+    color: lightcoral;
+}
+
+#back
+{
+    width: 92%;
+    height: 70%;
+    top: 0.5%;
+    left: 4%;
+    border-radius: 1rem;
+}
+
+#fakebutton
+{
+    width: 3vw;
+    height: 6vh;
+    top: 3%;
+    left: 6%;
+    background-image: url(../images/note.png);
+}
+
+#openimg
+{
+    top: 3%;
+    left: 85%;
+    width: 12vw;
+    height: 20vh;
+    background-image: url(../images/logo.png);
+    border-radius: 2rem;
+}
+
+#camarera
+{
+    top: 20.5%;
+    left: 10%;
+    background-image: url(../images/camarera.png);
+}
+
+#cliente
+{
+    top: 20.5%;
+    left: 60%;
+    background-image: url(../images/cliente.png);
+}
+
+#coffee, #choco
+{
+    width: 8vw;
+}
+
+#croissant
+{
+    height: 18vh;
+}
+
+#prodCof, #prodChoco
+{
+    width: 5vw;
+}
+
+#prodCof
+{
+    left: 38%;
+}
+
+#prodChoco
+{
+    left: 46%;
+}
+
+#prodCrois
+{
+    left: 54%;
+}
+
+#prodCof, #coffee
+{
+    background-image: url(../images/istockphoto-1356726667-612x612.jpg);
+}
+
+#prodChoco, #choco
+{
+    background-image: url(../images/istockphoto-1144203901-612x612.jpg);
+}
+
+#prodCrois, #croissant
+{
+    background-image: url(../images/croissant.png);
+}
+
+#mesa
+{
+    top: 26.5%;
+}
+
+#mesamejorada
+{
+    top: 22.5%;
+}
+
+#mejoraRRSS
+{
+    width: 8vw;
+    background-image: url(../images/RRSS.png);
+    left: 30%;
+}
+
+#mejoraBarista
+{
+    width: 9vw;
+    background-image: url(../images/barista.png);
+    left: 45%;
+}
+
+#mejoraIngred
+{
+    width: 9vw;
+    background-image: url(../images/ingredientes.png);
+    left: 60%;
+}
+
+#showDinero
+{
+    left: 15%;
+    height: 5vh;
+}
+
+#dinero
+{
+    left: 22%;
+    border: none;
+    background-color: transparent;
+}
+
+#botonMesa
+{
+    top: 63%;
+    left: 44%;
+}
+
+#botonRRSS
+{
+    left: 29.5%;
+}
+
+#botonBarista
+{
+    left: 44.5%;
+}
+
+#botonIngred
+{
+    left: 59.5%;
+}
+
+#pantalla_end
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/cafe_end2.png);
+}
+
+#texto_end
+{
+    width: 50vw;
+    top: 40%;
+    left: 25%;
+}
+
+#img_end
+{
+    top: 25%;
+    left: 46%;
+    width: 8vw;
+    height: 16vh;
+    background-image: url(../images/heart_img.png);
+    border-radius: 5rem;
+}
+
+#restart
+{
+    width: 18%;
+    height: 7%;
+    top: 60%;
+    left: 41%;
+    text-decoration: none;
+}

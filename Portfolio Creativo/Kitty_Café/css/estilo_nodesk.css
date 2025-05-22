@@ -1,0 +1,19 @@
+/* Aviso para dispositivos que no sean portátiles u ordenadores*/
+
+@media not all and (min-width: 1100px) and (min-height: 700px) and (hover: hover)
+{
+    button, #img_start, #texto_start, #copyright
+    {
+        display: none;
+    }
+
+    #texto_warning
+    {
+        display: flex;
+    }
+
+    #overlay_dark
+    {
+        display: block;
+    }
+}
