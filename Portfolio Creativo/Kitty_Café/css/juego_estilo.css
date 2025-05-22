@@ -9,7 +9,7 @@ div, input, img, button
     position: absolute;
 }
 
-button, .product1, #fakebutton, #restart
+button, .product1, .product2, #fakebutton, #restart
 {
     cursor: url(../images/gatito_point.png), pointer;
 }
