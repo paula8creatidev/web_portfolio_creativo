@@ -153,11 +153,16 @@ nav.navbar
 
 img{
     width: 100%;
-    max-width: 15.625rem;
+    max-width: 17.625rem;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     object-fit: cover;
     margin: 0 auto 1rem;
+}
+
+#robot_img
+{
+    border-radius: 0;
 }
 
 .rowie{
