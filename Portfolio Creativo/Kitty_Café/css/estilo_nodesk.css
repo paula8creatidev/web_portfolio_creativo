@@ -1,6 +1,6 @@
 /* Aviso para dispositivos que no sean portátiles u ordenadores*/
 
-@media not all and (min-width: 1090px) and (min-height: 620px) and (hover: hover) and (pointer: fine)
+@media not all and (min-width: 1024px) and (min-height: 600px) and (hover: hover) and (pointer: fine)
 {
     button, #img_start, #texto_start, #copyright
     {
