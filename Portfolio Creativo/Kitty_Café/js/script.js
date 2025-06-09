@@ -1,3 +1,4 @@
+var tutorial = document.getElementById('pantalla_tutorial');
 var camarera = document.getElementById('camarera');
 var cliente = document.getElementById('cliente');
 var mesa = document.getElementById('mesa');
@@ -56,6 +57,11 @@ function playSong()
         song.pause();
         fakebutton.style.filter = 'grayscale(100%)';
     }
+}
+
+function escondeTutorial()
+{
+    tutorial.style.display = 'none';
 }
 
 //Cuando se llega a la página desde la de inicio pone la música automáticamente

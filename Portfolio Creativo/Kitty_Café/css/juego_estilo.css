@@ -9,12 +9,12 @@ div, input, img, button
     position: absolute;
 }
 
-button, .product1 , #fakebutton, #restart
+button, .product1 , .product2, #fakebutton, #restart
 {
     cursor: url(../images/gatito_point.png), pointer;
 }
 
-button, #texto_end, .dineros
+button, #texto_end, .dineros, #pantalla_tutorial
 {
     text-shadow:
     0.1vw 0.1vw 0 palevioletred, 
@@ -24,17 +24,19 @@ button, #texto_end, .dineros
     color: white;
 }
 
-button, .dineros, .texto, #texto_end 
+button, .dineros, .texto, #texto_end, #pantalla_tutorial
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }
 
-button, .dineros, .texto {
+button, .dineros, .texto
+{
     font-size: 1.4vw;
 }
 
-#texto_end, #restart {
+#texto_end, #restart 
+{
     font-size: 2vw;
     text-align: center;
 }
@@ -53,6 +55,29 @@ button, .dineros, .texto {
 .product1, .product2
 {
     border-radius: 10rem;
+}
+
+#pantalla_tutorial
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    text-align: center;
+    font-size: 1.7vw;
+    align-content: center;
+}
+
+#pantalla_tutorial p
+{
+    margin: 10%;
+}
+
+#botonTutorial
+{
+    display: block;
+    top:75%;
+    left: 45%;
 }
 
 button
@@ -138,8 +163,8 @@ button
 
 #openimg
 {
-    top: 3%;
-    left: 85%;
+    top: 8%;
+    left: 44.5%;
     width: 12vw;
     height: 20vh;
     background-image: url(../images/logo.png);

@@ -11,11 +11,23 @@
     <audio id="song" preload="auto">
         <source src="../audio/peaceful-piano-background-music.mp3" type="audio/mp3">
     </audio>
+    <div id="pantalla_tutorial">
+        <div id="openimg"></div>
+        <p>¡Hola! Gracias por aceptar el puesto de manager temporal del Kitty Café.
+            <br>Tu misión es comprar todas las mejoras de la tienda: mesa, redes sociales, barista e ingredientes.
+            <br>Para ello, tendrás que ganar dinero vendiéndole a la clienta el producto que pide.
+            <br>En la parte superior de la pantalla tienes los productos disponibles para hacer clic y vender.
+            <br>Cuando tengas suficiente para una mejora concreta, aparecerá el botón de compra.
+            <br>Cada mejora te permite ganar dinero extra.
+            <br>Si quieres ver cuanto aumenta la ganancia, pasa el ratón por encima del botón de compra o por la imagen cuando la hayas comprado.
+            <br>¡Buena suerte!
+        </p>
+        <button id="botonTutorial" onclick="escondeTutorial()">Jugar</button>
+    </div>
     <div id="pantalla_end"></div>
     <img src="../images/cafe2.jpg" id="back" alt="">
     <div class="dineros" id="showDinero">Dinero:</div>
     <input class="dineros" type="number" id="dinero" readonly>
-    <div id="openimg"></div>
     <div id="fakebutton" onclick="playSong()"></div>
     <div id="prodCof" class="product1" onclick="Compra(0)"></div>
     <div id="prodChoco" class="product1" onclick="Compra(1)"></div>
