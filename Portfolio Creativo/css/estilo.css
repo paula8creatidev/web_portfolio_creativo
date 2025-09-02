@@ -46,7 +46,7 @@ nav.navbar
     align-items: center;
     width: 50vw;
     height: 10vh;
-    background-color: #B389FA;
+    background-color: #A97AF9;
     border-radius: 1vw;
     position: fixed;
     left: 50%;
@@ -60,7 +60,7 @@ nav.navbar
 
 .navbar a{
     text-decoration: none;
-    color: #F0F0F0;
+    color: #FFFFFF;
     font-size: 1.7rem;
     font-weight: bold;
     font-family: "Poetsen One", sans-serif;
@@ -78,7 +78,7 @@ nav.navbar
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #F0F0F0;
+    color: #FFFFFF;
 }
 
 .subtitle{
@@ -127,7 +127,7 @@ img{
 
 .cards
 {
-    background-color: #FF75B6E6;
+    background-color: #FF75B6;
 }
 
 .card-body{
@@ -141,8 +141,8 @@ img{
 }
 
 .card-body > a{
-    background-color: #B389FA;
-    color: #F0F0F0;
+    background-color: #7A4BD9;
+    color: #FFFFFF;
     border: none; 
     width: fit-content; 
     padding: 2%;
@@ -151,8 +151,8 @@ img{
 }
 
 .card-body > a:hover{
-    background-color: #D68FFF;
-    color: #F0F0F0;
+    background-color: #B389FA;
+    color: #FFFFFF;
     transform: scale(1.05);
 }
 
@@ -188,7 +188,7 @@ img{
     font-weight: bold;
     min-height: 3rem;
     margin-bottom: 1.5rem;
-    color: #F0F0F0;
+    color: #FFFFFF;
 }
 
 .columna p {
