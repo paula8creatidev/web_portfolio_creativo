@@ -92,6 +92,20 @@ nav.navbar
     text-align: center;
 }
 
+img{
+    width: 100%;
+    max-width: 17.625rem;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1rem;
+    padding: auto;
+}
+
+.avatar > img{
+    max-width: 40rem;
+}
+
 .about{
     align-items: center;
     align-content: center !important;
@@ -105,19 +119,10 @@ nav.navbar
 
 .columnao{
     align-content: center;
-    background-size: cover;
-    background-position:top;
-    min-height: 30rem;
-    min-width: 40rem;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     object-fit: cover;
     margin: 0;
-}
-
-.avatar{
-    background-image: url(../img/WhatsApp\ Image\ 2025-05-06\ at\ 18.21.17.jpeg);
-    margin-bottom: 2rem;
 }
 
 .cards

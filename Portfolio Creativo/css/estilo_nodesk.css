@@ -1,5 +1,8 @@
+/* Estilos para dispositivos móviles + tablet pequeña */
+
 @media (max-width: 991px){
-    .navbar ul{
+    .navbar ul
+    {
         width: 50vw;
         height: fit-content;
         flex-direction: column;
@@ -8,14 +11,16 @@
         margin-top: 1.7rem;
     }
 
-    .dropdown-menu{
+    .dropdown-menu
+    {
         position: absolute !important;
-        top: 100%; /* ajusta según tu diseño */
+        top: 100%; 
         left: 0;
-        z-index: 1050; /* mayor que el sticky */
+        z-index: 1050; 
     }
 
-    .navbar li{
+    .navbar li
+    {
         margin: 2%;
     }
 
@@ -29,28 +34,52 @@
         border-radius: 0.5rem;
     }
 
-    .navbar-toggler-icon{
+    .navbar-toggler-icon
+    {
         z-index: 1;
     }
 
-    .navbar-toggler:focus {
+    .navbar-toggler:focus 
+    {
         outline: 2px solid #D68FFFE6 !important;
         box-shadow: 0 0 0 4px rgba(255, 117, 182, 0.5) !important;
     }
 
-    .navbar-mv{
+    .navbar-mv
+    {
         display: block !important;
         width: 100%;
         background-color: none !important;
     }
-    .navbar-pc{
+
+    .navbar-pc
+    {
         display: none !important;
     }
 
-    .avatar{
-        min-height: 10rem;
-        min-width: 20rem;
-        margin-bottom: 2rem;
+    img
+    {
+        width: 90vw;
+    }
+
+    .avatar
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .avatar > img
+    {
+        width: 75%;
+        height: 75%;
+    }
+
+    .about
+    {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.4rem;
     }
 
     .cards
@@ -58,41 +87,48 @@
         margin-bottom: 0 !important;
     }
     
-    .columna{
+    .columna
+    {
         margin-bottom: 3vh !important;
         margin-top: 3vh !important;
         border: none;
     }
 
-    h3{
+    h3
+    {
         font-size: 32px !important;
         margin-bottom: 0.6vh !important;
     }
 
-
-    img{
-        width: 90vw;
-    }
-
-    .rowie{
+    .rowie
+    {
         height: fit-content;
         padding-top: 0 !important;
         padding-bottom: 0 !important;
     }
 
-    .btn{
+    .btn
+    {
         width: 40vw !important;
     }
 
-    .spacex{
+    #firstspace
+    {
+        height: 0;
+    }
+
+    .spacex
+    {
         height:4vh;
     }
 
-    .rowling{
+    .rowling
+    {
         height: fit-content;
     }
 
-    .colina{
+    .colina
+    {
         margin-top: 3vh !important;
         margin-bottom: 3vh;
     }
