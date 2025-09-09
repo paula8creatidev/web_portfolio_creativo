@@ -10,8 +10,6 @@ Este es un juego muy básico de **gestión de recursos** desarrollado con HTML, 
 
 Sólo se podrá jugar en ordenador **portátil o sobremesa**, en caso de acceder con tablet o móvil se mostrará una pantalla de advertencia.
 
-Es posible que el juego reciba actualizaciones en el futuro para optimizar.
-
 ## Objetivo
 
 Acumular dinero y comprar todas las mejoras para ganar.
