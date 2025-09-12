@@ -3,11 +3,11 @@
 @media (max-width: 991px){
     .navbar ul
     {
-        width: 50vw;
+        width: 60vw;
         height: fit-content;
         flex-direction: column;
         background-color: #B389FABF;
-        left: 35%;
+        left: 40%;
         margin-top: 1.7rem;
     }
 
@@ -80,6 +80,21 @@
         display: flex;
         flex-direction: column;
         font-size: 1.4rem;
+    }
+
+    .tech
+    {
+        margin-bottom: 1rem;
+    }
+
+    .tech-cards
+    {
+        flex-wrap: wrap;
+    }
+
+    .tecnologias
+    {
+        margin-bottom: 4rem;
     }
 
     .cards

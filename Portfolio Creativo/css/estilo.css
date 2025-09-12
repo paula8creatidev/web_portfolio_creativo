@@ -8,6 +8,11 @@ html {
   font-style: normal;
 }
 
+*
+{
+    font-family: "Poetsen One", sans-serif;
+}
+
 .navbar-mv{
     display:none !important;
 }
@@ -67,7 +72,6 @@ nav.navbar
     color: #FFFFFF;
     font-size: 1.7rem;
     font-weight: bold;
-    font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -79,24 +83,26 @@ nav.navbar
 .title{
     font-size: 4rem;
     font-weight: bold;
-    font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #FFFFFF;
 }
 
+.tech{
+    color: #D68FFF;
+}
+
 .subtitle{
     align-items: center !important;
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: bold;
-    font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #D68FFF;
     text-align: center;
 }
 
-img{
+.avatar img, .columna img{
     width: 100%;
     max-width: 17.625rem;
     aspect-ratio: 1 / 1;
@@ -115,10 +121,35 @@ img{
     align-content: center !important;
     color: #D68FFF;
     font-weight: bold;
-    font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
+}
+
+.tecnologias{
+    min-height: 10rem;
+    min-width: 7rem;
+    background-color: #FAFAFA;
+    align-content: center;
+    box-shadow: 0 0 10px #1B1B1B;
+    border-radius: 0.5vw;
+    padding: 1.5rem;
+}
+
+.tecnologias h3{
+    font-size: 2.7rem;
+    font-weight: bold;
+    min-height: 3rem;
+    margin-bottom: 1.5rem;
+    color: #7A4BD9;
+}
+
+.tecnologias img{
+    width: 100%;
+    max-width: 4rem;
+    min-height: 4rem;
+    object-fit: cover;
+    margin: 0 auto 1rem;
 }
 
 .columnao{
@@ -138,7 +169,6 @@ img{
     margin-top: 1vh;
     font-size: 1.7rem;
     font-weight: bold;
-    font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #D68FFF !important;
@@ -158,15 +188,6 @@ img{
     background-color: #B389FA;
     color: #FFFFFF;
     transform: scale(1.05);
-}
-
-img{
-    width: 100%;
-    max-width: 17.625rem;
-    aspect-ratio: 1 / 1;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 0 auto 1rem;
 }
 
 #robot_img
@@ -215,7 +236,6 @@ img{
     font-size: 1.7rem;
     color: #B389FA;
     font-weight: bold;
-    font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -227,10 +247,10 @@ img{
 
 .colina > a > i{
     color: #D68FFF;
-
 }
 
-.colina a i:hover{
+.colina a i:hover
+{
     color: #B389FA;
     transform: scale(1.05);
 }
@@ -238,4 +258,3 @@ img{
 footer{
     background-color: #171717;
 }
-
