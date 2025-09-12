@@ -225,10 +225,17 @@ img{
     margin-inline: 2.5vw;
 }
 
+.colina > a > i{
+    color: #D68FFF;
+
+}
+
+.colina a i:hover{
+    color: #B389FA;
+    transform: scale(1.05);
+}
+
 footer{
     background-color: #171717;
 }
 
-.colina > a > i{
-    color: #D68FFF;
-}
