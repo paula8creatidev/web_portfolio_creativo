@@ -10,7 +10,7 @@ Webook Creative es un portfolio de mis proyectos, a la vez que sirve de ejemplo 
 
 La web ha sido creado sin fines comerciales, solo con fines educativos o demostrativos.
 
-Es posible que la web tenga actualizaciones en el futuro para optimizar.
+La página tendrá actualizaciones periódicas para mejorar la optimización o añadir contenido nuevo. Es posible que en un futuro la web sea rediseñada.
 
 ---
 
