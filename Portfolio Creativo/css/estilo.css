@@ -2,15 +2,18 @@ html {
   scroll-behavior: smooth;
 }
 
-.poetsen-one-regular {
-  font-family: "Poetsen One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+@font-face {
+    font-family: 'Poetsen One';
+    src: url(../fonts/PoetsenOne-Regular.woff2) format('woff2'), 
+        url(../fonts/PoetsenOne-Regular.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 
 *
 {
-    font-family: "Poetsen One", sans-serif;
+    font-family: 'Poetsen One';
     font-weight: bold;
     font-weight: 400;
     font-style: normal;
