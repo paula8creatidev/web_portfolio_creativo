@@ -129,14 +129,10 @@ nav.navbar
     margin-inline: 2.5vw;
 }
 
-.colina > a > i{
-    color: #D68FFF;
-}
-
-.colina a i:hover
+.colina a img:hover
 {
-    color: #B389FA;
-    transform: scale(1.05);
+    transform: scale(1.25);
+    filter: sepia(50%);
 }
 
 .colina img
