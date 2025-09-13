@@ -11,6 +11,9 @@ html {
 *
 {
     font-family: "Poetsen One", sans-serif;
+    font-weight: bold;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .navbar-mv{
@@ -71,9 +74,6 @@ nav.navbar
     text-decoration: none;
     color: #FFFFFF;
     font-size: 1.7rem;
-    font-weight: bold;
-    font-weight: 400;
-    font-style: normal;
 }
 
 .container-fluid{
@@ -82,9 +82,6 @@ nav.navbar
 
 .title{
     font-size: 4rem;
-    font-weight: bold;
-    font-weight: 400;
-    font-style: normal;
     color: #FFFFFF;
 }
 
@@ -95,9 +92,6 @@ nav.navbar
 .subtitle{
     align-items: center !important;
     font-size: 5rem;
-    font-weight: bold;
-    font-weight: 400;
-    font-style: normal;
     color: #D68FFF;
     text-align: center;
 }
@@ -120,9 +114,6 @@ nav.navbar
     align-items: center;
     align-content: center !important;
     color: #D68FFF;
-    font-weight: bold;
-    font-weight: 400;
-    font-style: normal;
     font-size: 1.5rem;
 }
 
@@ -140,7 +131,6 @@ nav.navbar
 
 .tecnologias h3{
     font-size: 2.4rem;
-    font-weight: bold;
     min-height: 3rem;
     margin-bottom: 1.5rem;
     color: #7A4BD9;
@@ -170,9 +160,6 @@ nav.navbar
 .card-body{
     margin-top: 1vh;
     font-size: 1.7rem;
-    font-weight: bold;
-    font-weight: 400;
-    font-style: normal;
     color: #D68FFF !important;
 }
 
@@ -192,11 +179,6 @@ nav.navbar
     transform: scale(1.05);
 }
 
-#robot_img
-{
-    border-radius: 0;
-}
-
 .rowie{
     padding: 2rem;
 }
@@ -212,7 +194,6 @@ nav.navbar
 
 .columna h3{
     font-size: 2.7rem;
-    font-weight: bold;
     min-height: 3rem;
     margin-bottom: 1.5rem;
     color: #FFFFFF;
@@ -237,9 +218,6 @@ nav.navbar
     align-content: center;
     font-size: 1.7rem;
     color: #B389FA;
-    font-weight: bold;
-    font-weight: 400;
-    font-style: normal;
 }
 
 .colina > a{
