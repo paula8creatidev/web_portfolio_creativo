@@ -456,6 +456,14 @@ footer{
         padding-bottom: 0 !important;
     }
 
+    .columna
+    {
+
+        margin-bottom: 3rem;
+        width: 80vw !important;
+    }
+
+
     .tech
     {
         margin-bottom: 2rem;
