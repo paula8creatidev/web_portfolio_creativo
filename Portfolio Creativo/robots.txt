@@ -1,4 +1,3 @@
-# Permitir a los buscadores indexar el sitio
 User-agent: Googlebot
 Disallow:
 
@@ -17,7 +16,6 @@ Disallow:
 User-agent: Yandex
 Disallow:
 
-# Bloquear bots de IA
 User-agent: GPTBot
 Disallow: /
 
@@ -39,6 +37,3 @@ Disallow: /
 User-agent: FacebookBot
 Disallow: /
 
-# Por defecto, bloquear cualquier otro bot desconocido
-User-agent: *
-Disallow: /
